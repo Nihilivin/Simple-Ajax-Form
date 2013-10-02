@@ -47,7 +47,9 @@
               $('#'+formopts.target).removeClass('updating').addClass('updated').html(responseText);
             }
 
-            if( formopts.callback && typeof(formopts.callback) === 'function' ){
+            // if( formopts.callback && typeof(formopts.callback) === 'function' ){
+						// $.fn.do_some_response( responseText );
+            if( formopts.callback ){
               eval( formopts.callback+'(responseText, jQForm)' );
             }
           }
