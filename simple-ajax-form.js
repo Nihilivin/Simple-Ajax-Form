@@ -13,9 +13,8 @@
  * @borrows external:"jQuery".fn.simpleAjaxForm as external:"jQuery".simpleAjaxForm
  */
 /**
- * See (http://jquery.com/)
- * See the jQuery Library  (http://jquery.com/) for full details.  This just
- * documents the function and classes that are added to jQuery by this plug-in.
+ * See the {@link http://jquery.com/|jQuery Library} for full details.  This just documents the function and classes that are added to jQuery by this plug-in.
+ * @see {@link http://jquery.com/|jQuery} for details about jQuery.
  * @name external:"jQuery".fn
  * @class
  */
@@ -24,8 +23,8 @@
         /**
          * Send a form through ajax
 		 * @method	external:"jQuery".fn.simpleAjaxForm
-         * @param   {object} opts Options to be merged with { validate: false } and jQuery elements selected attributes ["target","callback","validate"]
-         * @returns {array}	Forms handlers
+         * @param	{object}	opts	Options to be merged with { validate: false } and jQuery elements selected attributes ["target","callback","validate"]
+         * @returns	{array}		Forms handlers
          */
         simpleAjaxForm: function( opts ){
             var defaults = { validate: false };
